@@ -316,8 +316,7 @@ hr.gradient-style {
 }
 
 .img-small {
-  height: 5%;
-  margin: 2px;
+  width: 100%;
 }
 
 .qty-display {
@@ -341,6 +340,10 @@ hr.gradient-style {
 .fa-shopping-cart {
   font-size: 22px;
   padding-top: 0.3em;
+}
+
+.product-cart-img {
+  width: 150px;
 }
 
 /* FOOTER */

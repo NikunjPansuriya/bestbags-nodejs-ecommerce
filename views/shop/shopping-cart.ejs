@@ -2,7 +2,7 @@
 <div class="container cart">
   <% if (cart != null && !cart.paid ) { %>
   <div class="row">
-    <div class="col-md-11 col-sm-12 m-auto table-responsive">
+    <div class="col-md-11 col-sm-12 table-responsive">
       <table class="table text-center">
         <thead>
           <tr >
@@ -19,7 +19,7 @@
         <tbody>
           <% products.forEach( product => { %> <% if(product != null) {%>
           <tr class="my-auto">
-            <td>
+            <td class="product-cart-img">
               <a
               href="/products/<%=product.category.slug%>/<%=product._id%>"
             >
